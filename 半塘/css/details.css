@@ -1,0 +1,306 @@
+.content{
+
+    /*border: 1px solid gray;*/
+    margin: 100px auto;
+}
+.fieldset{
+    font-size: 14px;
+    border-width: 1px;
+    border-style: groove;
+    border-color: threedface;
+}
+.con-l{
+    position: relative;
+    margin: 20px;
+
+}
+.content .con-l .small{
+    /*width: 400px;*/
+    height: 480px;
+    border: 1px solid;
+    position: relative;
+    float: left;
+
+   /* padding-top: 400px;*/
+
+
+}
+.con-l #small1{
+width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#img{
+    width: 100%;
+    height: 400px;
+    background: url(../img/big1.jpg) no-repeat center;
+    background-size: 100%;
+}
+
+.content .con-l .small ul li img {
+    float: left;
+    width: 80px;
+    height: 80px;
+
+}
+
+img{
+    display: block;
+    transition: all 0s;
+}
+img:hover{
+    transform: scale(1);
+}
+
+
+.small .mask{
+    width: 200px;
+    height: 200px;
+    background: black;
+    opacity: 0.3;
+    filter:alpha(opacity=30);/*兼容ie*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+.big{
+    border:1px solid #CCCCCC;
+    /*background: red;*/
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 390px;
+    z-index: 99;
+}
+#bigimg{
+    /*height: 400px;*/
+    /*background: url(../img/big1.jpg) no-repeat center;*/
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.con-l-bo-i{
+    margin: 0 10px;
+}
+.con-l-bo{
+    height:50px;
+    width: 400px;
+    text-align: left;
+    line-height: 50px;
+}
+
+/*//////////////////////*/
+
+.con-c{
+    width: 380px;
+    position: relative;
+    margin:20px 10px;
+    z-index: 10;
+}
+.con-c h4{
+    font-size: 16px;
+    font-family:微软简粗黑;
+    color: black;
+    font-weight: bold;
+}
+.con-c p{
+    font-size: 12px;
+    font-family:微软雅黑;
+    color: black;
+    margin-top: 10px;
+}
+.con-c .pp{
+    color: cornflowerblue;
+}
+
+
+.con-c ul li span{
+    font-size: 14px;
+
+    font-family: 微软雅黑;
+    margin-left: 10px;
+    color: #38383a;
+    float: left;
+}
+.con-c ul li div{
+    margin-left: 20px;
+
+}
+
+/*价格*/
+
+.con-c ul .price{
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    background-color: papayawhip;
+}
+
+.priceDiv{
+    height: 50px;
+
+}
+.priceDiv em{
+    font-weight: bold;
+    font-size: 26px;
+    color: red;
+    line-height: 50px;
+}
+
+/*优惠*/
+.coupon{
+
+    background-color:bisque;
+}
+.coupon span{
+    line-height: 30px;
+}
+.couponDiv div{
+    height: 30px;
+    line-height: 30px;
+
+}
+.couponDiv div span a{
+    color: red;
+}
+/*配送*/
+.express{
+    height: 30px;
+    line-height: 30px;
+}
+.express .expressDiv {
+    line-height:30px;
+}
+.express .expressDiv span{
+    font-size: 12px;
+}
+.expressDiv .province:hover,.expressDiv .exp:hover{/*js里用类名*/
+    border: 2px solid red;
+}
+
+
+
+
+/*尺寸*/
+.size{
+
+    line-height: 30px;
+}
+.size .sizeDiv{
+    height: 35px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.sizecurrent{
+    border: 2px solid green;
+}
+
+
+/*颜色分类*/
+.color{
+
+    line-height: 30px;
+}
+.color .colorDiv{
+    height: 35px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.color .colorDiv div:hover{
+    border: 2px solid red;
+
+}
+/*num*/
+.num{
+    margin-top: 10px;
+    line-height: 30px;
+
+}
+.numDiv{
+
+    line-height: 30px;
+}
+.numDiv .jia,.numDiv .jian,.numDiv .number{
+    width: 30px;
+    height: 20px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+
+}
+.numDiv .jia,.numDiv .jian{
+    background-color: #bfbfbf;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+/*btn*/
+.btn input{
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#bot{
+    background: lightgoldenrodyellow;
+    border: 1px solid palegoldenrod;
+    color: burlywood;
+}
+#shoppcar{
+    background:orange;
+
+    color: white;
+}
+.c-bo{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+/*购物车*/
+.nav{
+    width: 300px;
+    height: 800px;
+    position: fixed;
+    top:0;
+    right: -250px;
+    z-index: 20;
+
+}
+
+.nav-l{
+    width: 50px;
+    height: 800px;
+    background: #bfbfbf;
+}
+.nav-r{
+    width: 250px;
+    height: 800px;
+    background: honeydew;
+}
+.shocar{
+    width: 20px;
+    height: 60px;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top:20%;
+    background-color: #999999;
+
+}
+.nav-back-top{
+    display: block;
+    position: absolute;
+    bottom: 200px;
+    left: 5px;
+}

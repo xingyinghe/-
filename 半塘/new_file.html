@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			ul{
+				list-style: none;
+				
+			}
+			ul:after{
+				display: block;
+				clear: both;
+				content: "";
+			}
+			ul li{
+				float: left;
+				width: 50px;
+				height: 50px;
+				background: yellow;
+				color: black;
+				text-align: center;
+				font: 15px/50px "微软雅黑";
+			}
+			.current{
+				background: green;
+			}
+			#box{
+				width: 150px;
+				height: 200px;
+				
+				/*overflow: hidden;*/
+			}
+			
+			.one{
+				width: 150px;
+				height: 200px;
+				float: left;
+				display: none;
+				background: red;
+			}
+			.now{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="btns">
+			<li class="current">1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+		<div id="box">
+			
+			<div class="one now">1</div>
+			<div class="one">2</div>
+			<div class="one">3</div>
+			
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	var oLI = document.getElementById("btns").children;
+	var oBox = document.getElementById("box").children;
+	for(var i = 0; i < oLI.length; i++) {
+			oLI[i].index = i;
+			// buttonArr[i].setAttribute("index",i);
+			oLI[i].onclick = function() {
+				for(var j = 0; j < oLI.length; j++) {
+					oLI[j].className = "";
+					oBox[j].className = "one";
+				}
+				this.className = "current";
+				oBox[this.index].className = "now";
+			}
+		}
+</script>

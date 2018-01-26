@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 511861 */
+  src: url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.eot');
+  src: url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+ 	font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*banner部分*/
+.banner {
+    position: relative;
+    height: 340px;
+    background:url(../img/banner_bg.jpg) center #fff;
+    margin: 60px 0 40px;
+}
+.banner-bg{
+    position: relative;
+    height: 340px;
+    width: 1134px;
+    margin: 0 auto;
+    background: url(../img/banner.jpg) center no-repeat;
+    background-size: auto 340px;
+
+}
+.banner .banner-bg .download {
+    position: absolute;
+    width: 127px;
+    height: 33px;
+    left: 488px;
+    top: 266px;
+    cursor: pointer;
+}
+/*页面main部分*/
+.main .main-title{
+	margin: 30px 0 15px;
+}
+.main .main-title .main-title-list li{
+	font:14px/24px "微软雅黑";
+	height: 24px;
+	float: left;
+	text-align: center;
+	padding: 0 15px;
+	border-radius: 24px;
+	margin: 0 10px 15px 0;
+	cursor: pointer;
+}
+.main .main-title .main-title-list .now{
+	color: #FFFFFF;
+	background-color: #FD6363;
+	
+	
+	
+}
+.main .main-title .main-title-list li:hover{
+	color: #FFFFFF;
+	background-color: #FD6363;
+}
+.main .main-title .main-title-list li:active{
+	color: #FFFFFF;
+	background-color: #FD6363;
+}
+.main-list{
+		
+    margin-right: -25px;
+}
+.main-list-item{
+		float: left;
+    width: 300px;
+    margin: 0 25px 22px 0;
+}
+.main-list-item .main-list-item-img{
+	  height: 165px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.main-list-item-img img {
+    width: 100%;
+  
+}
+.main-list-item .title {
+    font-size: 16px;
+    color: #222;
+    height: 18px;
+    line-height: 18px;
+    padding-top: 15px;
+}
+.main-list-item .info {
+    height: 24px;
+    padding-top: 16px;
+}
+.main-list-item .info .user {
+    
+    height: 24px;
+}
+.main-list-item .info .user .userimg {  
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background: center no-repeat;
+    background-size: cover;
+}
+.main-list-item .info .user .username {
+   
+    padding-left: 10px;
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+    width: 100px;
+}
+.main-list-item .info .see {
+    
+    height: 24px;
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+}
+.see-ic {
+    font-family: BTiconfont!important;
+    font-size: 12px;
+    color: #d8d8d8;
+    padding-right: 6px;
+    font-style: normal;
+    
+  
+}
+.main-list-item .info .see .icon-see {
+    
+    font-size: 13px;
+}
+.main-list-item .info .see .icon-sf_-heard {
+    margin-left: 10px;
+    font-size: 13px;
+}
+.main-list-more{
+	display: block;
+	width: 400px;
+	height: 42px;
+	margin: 40px auto;
+	background: #f5f5f5;
+	color: #222222;
+	font:14px/42px "微软雅黑";
+	border-radius:42px;
+	text-align: center;
+}
+.one {
+	display: none;
+}
+#main-listt .current{
+	display: block;
+}

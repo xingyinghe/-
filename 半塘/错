@@ -1,0 +1,26 @@
+半塘
+商品信息做放大镜：
+    1，放大镜图片出现会把旁边的部分挤掉##没有给大的图片position：abs和位置
+    2，放大镜大图轮播问题，更换img的src##
+           bigImg.setAttribute('src',bigg);
+           fn('btn1',"url(img/big1.jpg)","img/big1.jpg");
+           在setAttribute用了src 在fn里的地址不用写url（）；
+    3，大图不跟随拖块的大小移动##在大图移动公式上把大图的offsetLife写成了大图div的左距离
+    4,拖块的定位，要加上scroll().left和scroll().top，拖块才能在一边滚动后还跟随在鼠标的正中间
+侧边栏的弹框：
+    不跟随页面宽度的变化而变化，页面变小之后，位置就错乱了##
+
+    定位的值计算要准确
+购物车：
+    购物车数量加减
+        1，点击add按钮，input的value值一直为1，不变化##input 的 id 写成了“numb fl”
+
+    购物车的数量加减和删除，都只有第一个div可用，下面的div都无效##
+        要用到  (function(j) {    })(i);
+        才会使各个div里相互没有影响；
+
+    购物车的数量变化的移动，
+        1，数量div一直向左移动，##js内容调用了之前的animation；而没有调用现在的，之前的js是向左移动的
+
+
+

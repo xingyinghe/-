@@ -1,0 +1,114 @@
+/*内容部分*/
+.main {
+    position: relative;
+    margin-top: 90px;
+    min-height: 1000px;
+    padding-bottom: 30px;
+}
+.main-l-menu{
+	position: fixed;
+    width: 160px;
+}
+.find{
+	font:16px/24px "微软雅黑";
+	color: #444;
+	border-bottom:1px dashed #dadada ;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.main-l-menu .cu,.main-l-menu ul li:hover{
+	color: #FD6363;
+}
+.main-l-menu ul li{
+	height: 50px;
+	border-bottom:1px dashed #dadada ;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+.main-r{
+	padding-left: 190px;
+} 
+.main-r-txt{
+	 display: block;
+}
+.main-r-txt .item{
+	
+    height: 126px;
+    margin-bottom: 30px;
+    overflow: hidden;
+
+}
+.item .item-img{
+	
+    float: left;
+    width: 230px;
+    height: 126px;
+    overflow: hidden;
+}
+.img-aa{
+	
+    width: 100%;
+    height: 100%;
+    background: center no-repeat #f7f7f7;
+    background-size: cover;
+}
+.img-aa img{
+    width: 100%;
+}
+.item-txt{
+	
+    padding-left: 250px;
+    height: 126px;
+}
+.item-txt .item-txt-title{
+	font: 18px/28px "微软雅黑";
+	
+    font-weight: 700;
+    color: #444;
+    height: 28px;
+    overflow: hidden;
+}
+.item-txt .desc{
+	font: 14px/24px "微软雅黑";
+	font-weight: 700;
+	padding-top: 6px;
+
+    max-height: 48px;
+    overflow: hidden;
+    color: #999;
+}
+.main-list-item .info .see {
+    
+    height: 24px;
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+}
+.see-ic {
+    font-family: BTiconfont!important;
+    font-size: 12px;
+    color: #d8d8d8;
+    padding-right: 6px;
+    font-style: normal;
+    
+  
+}
+.main-list-item .info .see .icon-see {
+    
+    font-size: 13px;
+}
+.main-list-item .info .see .icon-sf_-heard {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+
+.main-r-txt {
+    margin-right: -30px;
+    display: none;
+}
+.now {
+
+    display: block;
+}

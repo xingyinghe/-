@@ -1,0 +1,169 @@
+
+html{
+	position: relative;
+}
+
+.back1{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	z-index: 4;
+}
+
+.logoin1{
+	position: fixed;
+	left: 50%;
+	margin-left:-210px ;
+	top:50%;
+	margin-top: -290px;
+	z-index: 5;
+	display: none;
+}
+.log-tp1{
+	width: 420px;
+    height: 160px;
+    background: url(../img/login-top-bg@2x.jpg) center no-repeat #f5f5f5;
+    background-size: cover;
+    position: relative;
+}
+.cha1{
+    position: absolute;
+    z-index: 5;
+    right: 20px;
+    top: 15px;
+}
+.icon-cha{
+    color: deepskyblue;
+
+}
+.log-con1 {
+    height: 420px;
+    width: 420px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+
+}
+.log-inner1{
+	
+    width: 280px;
+    height: 100%;
+    padding: 0 70px;
+}
+.log-area1 {
+    position: relative;
+    padding-top: 30px;
+    
+}
+.log-area1 input{
+	display: block;
+    height: 38px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font: 13px/38px "微软雅黑";
+    width: 248px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.yanzm1{
+	width: 248px;    
+    height: 38px;
+    margin-bottom: 20px;
+}
+#yzm1{
+	display: inline-block;
+	float: left;   
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font: 13px/38px "微软雅黑";
+    width: 120px;
+    
+    
+}
+.log-area1 .btn1 {
+    height: 40px;
+    width: 280px;
+    border-radius: 20px;
+    font: 16px/40px "微软雅黑";
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    
+    color: #fff;
+    
+    cursor: pointer;
+    background-color: #fd6363;
+}
+.cli1{
+	height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font: 12px/40px "微软雅黑";     
+    display: inline-block;
+    text-align: center;    
+    color: gray;    
+    cursor: pointer;
+    background-color:  lightgrey;
+    margin-right: -30px;
+}
+.log-area1 .toggle1 {
+    height: 12px;
+    font: 12px/12px "微软雅黑";
+    color: #3f8cca;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 4px;
+    padding-top: 10px;
+}
+.third-title1 {    
+    font: 14px/15px "微软雅黑";
+    height: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+.third1 {
+    padding-top: 15px;
+}
+.third1 .item1{
+	display: block;
+    float: left;
+}
+.third1 .item1.weibo1 {
+    margin-left: 50px;
+   
+}
+.third1 .item1.qq1 {
+    margin-left: 125px;
+  
+}
+   
+.third1 .item1 .icons1 {
+    height: 24px;
+    width: 24px;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 0;
+    background: url(../img/sprites@x2.png)  no-repeat;
+    background-size: 200px 150px;
+}
+.third1 .item1 .weibo-login1{
+	background-position: -94px -64px;
+}
+.third1 .item1 .qq-login1{
+	background-position: -118px -64px;
+}
+.third1 .item1 .weibo-login1:hover{
+	background-position: -94px -38px;
+}
+.third1 .item1 .qq-login1:hover{
+	background-position: -118px -38px;
+}
+.third1 p{
+	text-align: center;
+}

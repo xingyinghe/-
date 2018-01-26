@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 511861 */
+  src: url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.eot');
+  src: url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_511861_srkxqd58w5pl23xr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+ 	  font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cate{
+	padding-top: 60px;
+}
+.cate-list-1{
+	padding: 30px 0 0;
+}
+.cate .cate-list-1 .current, .cate .cate-list-1 a:hover {
+    border-color: #fd6363;
+    color: #fd6363;
+}
+.cate .cate-list-1 a{
+	height: 22px;
+    border: 1px solid #fff;
+    padding: 0 15px;
+    font: 14px/22px "微软雅黑";
+    color: #666;
+    
+}
+.cate .cate-list-2 .inner a{
+	height: 22px;
+    border: 1px solid #fff;
+    padding: 0 15px;
+    font: 12px/22px "微软雅黑";
+    color: #666;
+    
+}
+.cate .cate-list-1 a,.cate .cate-list-2 .inner a{
+    display: inline-block;
+    margin: 0 10px 20px 0;
+    border-radius: 22px;
+   
+    text-align: center;
+}
+.cate-list-2{
+	padding: 20px 0 0;
+    border-top: 1px dotted #f4f4f4;
+    position: relative;
+}
+.cate-title .cate-list-2 .head {
+    
+    font: 12px/24px "微软雅黑";
+    height: 24px;
+    width: 80px;
+    color: #999;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+.cate .cate-list-2 .inner {
+	padding-left: 90px;
+} 
+.cate .cate-list-2 .inner a:hover {
+    border-color: #fd6363;
+    color: #fd6363;
+}
+.cate-con{	
+    margin-top: 15px;
+    border-top: 1px solid #f8f8f8;
+}
+.cate-con .head{
+	height: 60px;	
+}
+.cate-con .head .head-l{
+	height: 60px;	
+}
+.cate-con .head .head-l span{
+	display: inline-block;
+    height: 58px;
+    
+    font: 14px/58px "微软雅黑";
+    color: #666;
+    border-top: 2px solid #fff;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.cate-con .head .head-l .current, .cate-con .head .head-l span:hover {
+    color: #444;
+    border-top-color: #fd6363;
+}
+.cate-con .head .head-l span{
+	 color: darkgray;
+}
+
+
+.head-r{
+	height: 60px;
+    overflow: hidden;
+}
+.head-r .head-r-type .ty-item {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    font: 12px/60px "微软雅黑";
+    color: #999;
+    
+    margin-left: 40px;
+    cursor: pointer;
+}
+.head-r .head-r-type .current, .head-r .head-r-type .ty-item:hover {
+    color: #fd6363;
+}
+
+
+.con-list{
+   
+    min-height: 500px;
+}
+.con-list .pro-list {  
+    margin-right: -30px;
+    display: none;
+}
+#con-list .now {  
+   
+    display: block;
+}
+
+.pro-item{
+    width: 220px;
+    margin: 0 23px 23px 0;
+}
+.pro-item .pic{
+	width: 220px;
+    height: 220px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.pro-item .pic img {
+    width: 100%;
+}
+.pro-item .title {
+   font-size: 16px;
+    color: #222;
+    height: 18px;
+    line-height: 18px;
+    padding-top: 15px;
+}
+.pro-item .pro-info {
+    height: 22px;
+    padding-top: 10px;
+    line-height: 22px;
+    text-align: center;
+}
+.pro-item .pro-info .price {
+    font-size: 18px;
+    line-height: 22px;
+    color: #444;
+}
+.pro-item .pro-info .like {
+    font: 12px/22px "微软雅黑";
+    color: #999;
+    padding-left: 10px;
+}
+.pro-item .pro-info .like .icon-sf_-heard{
+		    
+    margin: 1px 0 0;
+    padding-right: 3px;
+    font-size: 12px;
+}
+.main-list-more{
+	display: block;
+	width: 400px;
+	height: 42px;
+	margin: 40px auto;
+	background: #f5f5f5;
+	color: #222222;
+	font:14px/42px "微软雅黑";
+	border-radius:42px;
+	text-align: center;
+}
+
+.pro-title{
+		font-size: 12px;
+    color: #222;
+    height: 16px;
+    line-height: 18px;
+   
+    text-align: center;
+}
+
+
+
+.topic-item{
+	width: 300px;
+  margin: 0 25px 22px 0;
+}
+.topic-item-pic{
+	  height: 165px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.topic-item-pic img{
+	  width: 100%;
+}
+
+
+
+
+
+.pro-item .info {
+    height: 24px;
+    padding-top: 16px;
+}
+.pro-item .info .user {
+    
+    height: 24px;
+}
+.pro-item .info .user .userimg {  
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background: center no-repeat;
+    background-size: cover;
+}
+.pro-item .info .user .username {
+   
+    padding-left: 10px;
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+    width: 100px;
+}
+.pro-item .info .see {
+    
+    height: 24px;
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+}
+.see-ic {
+    font-family: BTiconfont!important;
+    font-size: 12px;
+    color: #d8d8d8;
+    padding-right: 6px;
+    font-style: normal;
+    
+  
+}
+.pro-item .info .see .icon-see {
+    
+    font-size: 13px;
+}
+.pro-item .info .see .icon-sf_-heard {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.post-item{
+	    width: 220px;
+    margin: 0 23px 23px 0;
+}
+
+.post-title{
+		font-size: 12px;
+    color: #222;
+    height: 16px;
+    line-height: 18px;
+   
+    text-align: center;
+        height: 24px;
+    padding-top: 14px;
+}
+.post-title .name {
+    float: left;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    width: 100px;
+}
+.post-title .like {
+    float: right;
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+    padding-left: 10px;
+}
+.post-title .like .icon-sf_-heard{
+		    
+    margin: 1px 0 0;
+    padding-right: 3px;
+    font-size: 12px;
+}
+.post-info{
+		padding-top: 10px;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    text-align: left;
+}
