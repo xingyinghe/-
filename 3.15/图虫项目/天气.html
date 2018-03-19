@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="text" id="location"/><input type="button" value="查询" />
+</body>
+<script src="js/jquery.min-1.12.4.js"></script>
+<script>
+    $(':button').on('click', function(){
+        var loc = $('#location').val();
+        $.ajax({
+            type: 'get',
+            url: 'https://www.heweather.com/douments/api/s6/weather-forecast',
+            data: {
+                location: loc,
+                key: '46cbee9ea2cd479e85ff9c7e3edcb40a'
+            },
+            dataType: 'json',
+            success: function(data){
+                var json = data['HeWeather6'][0];
+
+                var basic = json.basic;                         // 基本数据
+                var dailyForecast = json['daily_forecast'];     // 最近天气
+                var update = json['update'];                    // 天气信息更新时间
+                var status = json['status'];                    // 服务器状态
+
+                console.log(basic.cnty, basic.admin_area, basic.parent_city, basic.location);
+                var today = dailyForecast[0];                   // 今天
+                var tomorrow = dailyForecast[1];                // 明天
+                var dayAfterTomorrow = dailyForecast[2];        // 后天
+                console.log('今天天气', '最高温度' + today['tmp_max'], '最低温度' + today['tmp_min']);
+                console.log('明天天气', '最高温度' + tomorrow['tmp_max'], '最低温度' + tomorrow['tmp_min']);
+                console.log('后天天气', '最高温度' + dayAfterTomorrow['tmp_max'], '最低温度' + dayAfterTomorrow['tmp_min']);
+            },
+            error: function(e){
+                console.log(e);
+            }
+        });
+    });
+
+</script>
+</html>

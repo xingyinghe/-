@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>虫虫</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_511861_a7xvx3eyq52ke29.css" />
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/logoin.css" />
+	<link rel="stylesheet" type="text/css" href="css/register.css" />
+</head>
+<body>
+<!--导航栏-->
+<nav class="navbar tc_nav navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <!-- 移动端显示较好 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-camera"></span>
+                    <span class="tc_icon tc_icon_word">虫虫</span>
+                </a>
+            </div>
+
+            <!-- 导航菜单 -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="#">首页</a></li>
+                    <li class=""><a href="hd.html">活动</a></li>
+                    <li class=""><a href="#">短视频</a></li>
+                  <!--下拉菜单-->
+                    <!--<li class="dropdown ">
+                        <a href="#"  class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">发现</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+
+
+                    </li>-->
+                    <li class=""><a href="find.html">发现</a></li>
+                    <li class=""><a href="sys.html">摄影师</a></li>
+                    <li class=""><a href="map.html">地图</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                    <li><a href="#"  id="btn">登录</a></li>
+                    <li><a href="#"  id="reg">注册</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</nav>
+<!--轮播图-->
+<div id="carousel-example-generic" class="carousel slide tc_banner" data-ride="carousel">
+    <!-- 小圆点 -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+
+    <!-- 轮播的内容 -->
+    <div class="carousel-inner" role="listbox" id="inner">
+
+    </div>
+
+    <!-- 左右箭头 -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </a>
+</div>
+<!--内容部分-->
+<div class="tc-content">
+    <section class="container">
+        <section class="hot-posts">
+            <h2>已经有超过五百万的摄影爱好者入驻了图虫······</h2>
+            <p class="text-p">在这里，发现基于共同兴趣的同好；鼓励原创和分享精神；除了美好的摄影和技能，我们更在意影像背后价值观的认同。</p>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="pic">
+                        <a href="javascript:;" class="product_box exp">
+                            <img src="img/1.webp" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="desc">
+                        <!--<span class="more"></span>-->
+                        <!--<p class="pp">xyh_e</p>-->
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:;" class="product_box exp">
+                        <img src="img/2.webp"class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:;" class="product_box exp">
+                        <img src="img/3.webp" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:;" class="product_box exp">
+                        <img src="img/4.webp" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:;" class="product_box exp">
+                        <img src="img/3.webp"class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:;" class="product_box exp">
+                        <img src="img/2.webp"class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:;" class="product_box exp">
+                        <img src="img/1.webp"class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:;" class="product_box exp">
+                        <img src="img/2.webp" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:;" class="product_box exp">
+                        <img src="img/3.webp" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="hot-events">
+            <h2>全年超过百万奖金的活动和大赛，好照片不再寂寞······</h2>
+            <p class="text-p">中国最活跃的摄影赛事平台，层出不穷的活动创意，专业的摄影导师群体，一起帮助你成为中国最好的摄影师。</p>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="event-list">
+                        <a href="javascript:;" class="item-mask">
+                            <div class="list-up" style="background-image: url('img/event1.jpg')">
+                                <p class="item-active">距截稿11天</p>
+                                <!--<img src="img/event1.jpg" class="img-responsive">-->
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-title">这么可爱一定是男孩子</h3>
+                                <p class="item-posts">5125件作品</p>
+                                <p class="item-award">
+                                    <i class="glyphicon glyphicon-piggy-bank" style="color:deeppink;font-size:16px;margin-right: 5px"></i>图虫随机现金红包
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="event-list">
+                        <a href="javascript:;" class="item-mask">
+                            <div class="list-up" style="background-image: url('img/enent2.jpg')">
+                                <p class="item-active">距截稿11天</p>
+                                <!--<img src="img/event1.jpg" class="img-responsive">-->
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-title">这么可爱一定是男孩子</h3>
+                                <p class="item-posts">5125件作品</p>
+                                <p class="item-award">
+                                    <i class="glyphicon glyphicon-piggy-bank" style="color:deeppink;font-size:16px;margin-right: 5px"></i>图虫随机现金红包
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="event-list">
+                        <a href="javascript:;" class="item-mask">
+                            <div class="list-up"  style="background-image: url('img/event3.jpg')">
+                                <p class="item-active">距截稿11天</p>
+                                <!--<img src="img/event1.jpg" class="img-responsive">-->
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-title">这么可爱一定是男孩子</h3>
+                                <p class="item-posts">5125件作品</p>
+                                <p class="item-award">
+                                    <i class="glyphicon glyphicon-piggy-bank" style="color:deeppink;font-size:16px;margin-right: 5px"></i>图虫随机现金红包
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="event-list">
+                        <a href="javascript:;" class="item-mask">
+                            <div class="list-up" style="background-image: url('img/enent2.jpg')">
+                                <p class="item-active">距截稿11天</p>
+                                <!--<img src="img/event1.jpg" class="img-responsive">-->
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-title">这么可爱一定是男孩子</h3>
+                                <p class="item-posts">5125件作品</p>
+                                <p class="item-award">
+                                    <i class="glyphicon glyphicon-piggy-bank" style="color:deeppink;font-size:16px;margin-right: 5px"></i>图虫随机现金红包
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="event-list">
+                        <a href="javascript:;" class="item-mask">
+                            <div class="list-up"  style="background-image: url('img/event3.jpg')">
+                                <p class="item-active">距截稿11天</p>
+                                <!--<img src="img/event1.jpg" class="img-responsive">-->
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-title">这么可爱一定是男孩子</h3>
+                                <p class="item-posts">5125件作品</p>
+                                <p class="item-award">
+                                    <i class="glyphicon glyphicon-piggy-bank" style="color:deeppink;font-size:16px;margin-right: 5px"></i>图虫随机现金红包
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="event-list">
+                        <a href="javascript:;" class="item-mask">
+                            <div class="list-up" style="background-image: url('img/event1.jpg')">
+                                <p class="item-active">距截稿11天</p>
+                                <!--<img src="img/event1.jpg" class="img-responsive">-->
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-title">这么可爱一定是男孩子</h3>
+                                <p class="item-posts">5125件作品</p>
+                                <p class="item-award">
+                                    <i class="glyphicon glyphicon-piggy-bank" style="color:deeppink;font-size:16px;margin-right: 5px"></i>图虫随机现金红包
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="event-list">
+                        <a href="javascript:;" class="item-mask">
+                            <div class="list-up" style="background-image: url('img/event1.jpg')">
+                                <p class="item-active">距截稿11天</p>
+                                <!--<img src="img/event1.jpg" class="img-responsive">-->
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-title">这么可爱一定是男孩子</h3>
+                                <p class="item-posts">5125件作品</p>
+                                <p class="item-award">
+                                    <i class="glyphicon glyphicon-piggy-bank" style="color:deeppink;font-size:16px;margin-right: 5px"></i>图虫随机现金红包
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="event-list">
+                        <a href="javascript:;" class="item-mask">
+                            <div class="list-up" style="background-image: url('img/enent2.jpg')">
+                                <p class="item-active">距截稿11天</p>
+                                <!--<img src="img/event1.jpg" class="img-responsive">-->
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-title">这么可爱一定是男孩子</h3>
+                                <p class="item-posts">5125件作品</p>
+                                <p class="item-award">
+                                    <i class="glyphicon glyphicon-piggy-bank" style="color:deeppink;font-size:16px;margin-right: 5px"></i>图虫随机现金红包
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="event-list">
+                        <a href="javascript:;" class="item-mask">
+                            <div class="list-up"  style="background-image: url('img/event3.jpg')">
+                                <p class="item-active">距截稿11天</p>
+                                <!--<img src="img/event1.jpg" class="img-responsive">-->
+                            </div>
+                            <div class="item-desc">
+                                <h3 class="item-title">这么可爱一定是男孩子</h3>
+                                <p class="item-posts">5125件作品</p>
+                                <p class="item-award">
+                                    <i class="glyphicon glyphicon-piggy-bank" style="color:deeppink;font-size:16px;margin-right: 5px"></i>图虫随机现金红包
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+    </section>
+</div>
+
+<!--友情链接-->
+<div class="brand-wrap">
+    <p class="head">合作品牌</p>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <a href="#"><img src="img/foot1.png" class="img-responsive" ></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 ">
+                <a href="#"><img src="img/foot1.png" class="img-responsive"></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <a href="#"><img src="img/foot1.png" class="img-responsive"></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <a href="#"><img src="img/foot1.png" class="img-responsive"></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <a href="#"><img src="img/foot1.png" class="img-responsive"></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <a href="#"><img src="img/foot1.png" class="img-responsive"></a>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+<!--foot-->
+<footer class="container-fluid">
+    <div class="over-auto">
+        <div class="fl footer-fluid col-md-4 col-sm-4 col-xs-6 hidden-xs">
+            <p class="fluid-title"> 关于我们 </p>
+
+            <div class="fluid-content tuchong-desc">
+                已经有超过五百万的摄影爱好者入驻了图虫 <br>
+                在这里，发现基于共同兴趣的同好，鼓励原创和分享精神 <br>
+                除了美好的摄影和技能，我们更在意影像背后价值观的认同
+            </div>
+        </div>
+
+        <div class="fl footer-fluid col-md-4 col-sm-4 col-xs-6">
+            <p class="fluid-title"> 下载APP </p>
+
+            <div class="fluid-content">
+                <img class="qrcode download" src="img/erweima.png">
+                <div class="qrcode-parallel">
+                    <a class="app-link" data-type="iOS" data-referer="official" target="_blank" title="点击下载iPhone客户端"> iPhone版下载 </a>
+                    <a class="app-link" data-type="Android" data-referer="official" title="点击下载Android客户端"> Android版下载 </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="fr footer-fluid text-center col-md-4 col-sm-4 col-xs-6">
+            <p class="fluid-title"> 关注图虫 </p>
+
+            <div class="fluid-content">
+                <div class="qrcode-parallel">
+                    <div href="javascript:;" class="link-logo wechat">
+                        <a href="javascript:;">
+                            <i class="icon-wechat"></i>
+                        </a>
+                    </div>
+
+                    <div href="javascript:;" class="link-logo">
+                        <a href="javascript:;" target="_blank">
+                            <i class="icon-weiboo"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="over-auto tuchong-detail">
+        <div class="footer-left ">
+            <span>©2017 tuchong.com</span>
+            <span>沪ICP备12005590-5</span>
+
+            <div class="slash-list">
+                <a class="slash-item" href="#"><i>用户协议</i></a>
+                <a class="slash-item" href="#"><i>版权政策</i></a>
+                <a class="switch-layout slash-item" href="#" data-version="mobile"><i>移动版</i></a>
+                <a class="switch-layout slash-item" href="#" data-version="pc"><i>电脑版</i></a>
+            </div>
+        </div>
+
+        <div class="footer-right slash-list ">
+            <a class="slash-item" href="#"><i>EXIF查看器</i></a>
+            <a class="slash-item" href="#"><i>帮助</i></a>
+            <a class="slash-item" href="#"><i>关于</i></a>
+            <a class="slash-item" href="#"><i>联系</i></a>
+            <a class="slash-item" href="#"><i>服务</i></a>
+            <a class="slash-item" href="#"><i>加入我们</i></a>
+        </div>
+    </div>
+</footer>
+
+
+<!--logoin部分-->
+		<div id="back" class="back">
+
+		</div>
+		<div class="logoin container" id="logoin">
+
+			<div class="log-tp">
+				<div class="cha" id="hide">
+					<i class="iconfont icon-cha"></i>
+				</div>
+			</div>
+
+			<div class="log-con">
+				<div class="log-inner">
+					<div class="log-area">
+
+						<input type="text" id="loginMobile" placeholder="用户名"><span ></span>
+						<input type="password" id="loginPwd" placeholder="密码"><span ></span>
+
+						<a href="javascript:;" class="btn" id="loginBtn">登录</a>
+						<p class="toggle" id="reg1">注册</p>
+					</div>
+
+					<p class="third-title">社交账号快速登录</p>
+					<div class="third">
+						<a href="#" class="item weibo">
+							<i class="icons weibo-login"></i>
+							<p>微博</p>
+						</a>
+						<a href="#" class="item qq">
+							<i class="icons qq-login"></i>
+							<p>QQ</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--注册部分-->
+		<div id="back1" class="back1">
+
+		</div>
+		<div class="logoin1 container" id="logoin1">
+			<div class="log-tp1">
+				<div class="cha1" id="hide1">
+					<i class="iconfont icon-cha"></i>
+				</div>
+			</div>
+			<div class="log-con1">
+				<div class="log-inner1">
+					<div class="log-area1">
+
+						<input type="text1" id="loginMobile1" placeholder="用户名"><span ></span>
+						<!--<div class="yanzm1">
+							<input type="password1" id="yzm1" placeholder="验证码">
+							<a href="#" class="cli1 fr">获取验证码</a>
+						</div>-->
+
+						<input type="password1" id="loginPwd1" placeholder="密码"><span ></span>
+
+						<a href="javascript:;" class="btn1" id="zhuce">注册 </a>
+						<p class="toggle1" id="btn1">登录</p>
+					</div>
+
+					<p class="third-title1">社交账号快速登录</p>
+					<div class="third1">
+						<a href="#" class="item1 weibo1">
+							<i class="icons1 weibo-login1"></i>
+							<p>微博</p>
+						</a>
+						<a href="#" class="item1 qq1">
+							<i class="icons1 qq-login1"></i>
+							<p>QQ</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+<!--返回顶部部分-->
+<div class="back-top" style="margin-left: 515px;">
+    <div class="back-top-a" onclick="pageScroll()">
+        <i class="iconfont icon-fanhuidingbu img-responsive"></i>
+    </div>
+</div>
+</body>
+<!--登录注册正则-->
+
+<script>
+    //登录按钮
+    const loginBtn =  document.getElementById("loginBtn");
+   
+    //注册按钮
+    const registerBtn =  document.getElementById("zhuce");
+    //用户名输入框
+    const userInp =  document.getElementById("loginMobile");
+    //密码输入框
+    const passwordInp =  document.getElementById("loginPwd");
+      //用户名输入框1
+    const userInp1 =  document.getElementById("loginMobile1");
+    //密码输入框1
+    const passwordInp1 = document.getElementById("loginPwd1");
+    //你想存成什么格式：
+    //key:register
+    //value:[{name:"",password:""},{name:"",password:""}]
+    //需要有一个数组，里面存放所有用户的信息，初始值为[]
+    let userArray = window.localStorage.getItem("register")||"[]";
+    userArray = JSON.parse(userArray);
+    //注册流程
+
+    userInp.onblur=function () {
+        var span = this.nextSibling || this.nextElementSibling;
+        if (/^[\u3040-\u309F\u4e00-\u9fa5\uf900-\ufa2d]{2,4}$/.test(this.value)){
+            span.innerHTML = '用户名可用';
+            span.className = 'success';
+            // registerBtn.style.disable = '';
+        }else{
+            span.innerHTML = '用户名不符合要求';
+            span.className = 'error';
+            // registerBtn.style.disable = 'disable';
+        }
+    };
+
+passwordInp.onblur = function(){
+    var span = this.nextSibling || this.nextElementSibling;
+    if (/^[a-zA-Z0-9]{4,18}$/.test(this.value)){
+        span.innerHTML = '密码可用';
+        span.className = 'success';
+    }else{
+        span.innerHTML = '密码不符合要求';
+        span.className = 'error';
+
+    }
+};
+   userInp1.onblur=function () {
+        var span = this.nextSibling || this.nextElementSibling;
+        if (/^[\u3040-\u309F\u4e00-\u9fa5\uf900-\ufa2d]{2,4}$/.test(this.value)){
+            span.innerHTML = '用户名可用';
+            span.className = 'success';
+            // registerBtn.style.disable = '';
+        }else{
+            span.innerHTML = '用户名不符合要求';
+            span.className = 'error';
+            // registerBtn.style.disable = 'disable';
+        }
+    };
+
+passwordInp1.onblur = function(){
+    var span = this.nextSibling || this.nextElementSibling;
+    if (/^[a-zA-Z0-9]{4,18}$/.test(this.value)){
+        span.innerHTML = '密码可用';
+        span.className = 'success';
+    }else{
+        span.innerHTML = '密码不符合要求';
+        span.className = 'error';
+
+    }
+};
+
+
+    registerBtn.onclick=()=>{
+        let username = userInp1.value;
+        let password = passwordInp1.value;
+        let user = {name:username,password:password};
+        //重名不允许注册
+
+        for(let i=0;i<userArray.length;i++){
+            if(userArray[i].name==username){
+                alert("该用户名以被占用");
+                return;
+            }
+            	
+            	
+          
+
+        }
+        if (/^[\u3040-\u309F\u4e00-\u9fa5\uf900-\ufa2d]{2,4}$/.test(userInp.value)&&/^[a-zA-Z0-9]{4,18}$/.test(passwordInp.value)){
+            userArray.push(user);
+            window.localStorage.setItem("register",JSON.stringify(userArray))
+        }
+        alert("用户注册成功");
+    }
+
+//  //登录流程
+    loginBtn.onclick=()=>{
+    	
+        let username = userInp.value;
+        let password = passwordInp.value;
+        //如果用户名和密码相同则登录成功
+        for(let i=0;i<userArray.length;i++){
+            if(userArray[i].name==username){
+                if(userArray[i].password==password){
+                    alert("恭喜你登录成功！")
+                    console.log("恭喜你登录成功！")
+                    return;
+                }else {
+                    alert("密码错误！")
+                    console.log("密码错误！")
+                    return;
+                }
+                return;
+            }else {
+                alert("未注册！");
+                 console.log("未注册！")
+                return;
+            }
+        }
+    }
+
+</script>
+
+
+
+
+<!--返回顶部js-->
+<script type="text/javascript">
+    function pageScroll() {
+
+        window.scrollBy(0, -100);
+
+        scrolldelay = setTimeout('pageScroll()', 80);
+
+        var sTop = document.documentElement.scrollTop + document.body.scrollTop;
+
+        if(sTop == 0) clearTimeout(scrolldelay);
+    }
+</script>
+
+<!--轮播图的模板-->
+<script type="text/template" id="slider">
+    <%for(var i=0;i<json.length;i++){%>
+    <div class="<%=(i==0?'item active':'item')%>">
+        <%if(isMobile){%>
+        <a href="javascript"  class="small">
+            <img src="<%=json[i].img%>">
+        </a>
+        <%}else{%>
+        <a href="javascript:;" style="background-image:<%=json[i].bac%>" class="big" ></a>
+        <%}%>
+    </div>
+    <%}%>
+</script>
+<script src="lib/jquery-1.12.4.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/template-native.js"></script>
+<script src="js/index.js"></script>
+<script src="js/swipe.js"></script>
+<script src="js/login.js"></script>
+</html>
